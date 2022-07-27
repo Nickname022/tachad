@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  font-family: 'Kanit', sans-serif;
+}
+#myVideo {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 80%;
+  width: 1600px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+#number{
+  border: none;
+  border-bottom: 2px solid green;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  width: 300px;
+  font-size: 20px;
+  outline: none;
+  font-family: 'Sarabun', sans-serif;
+}
+
+#h1output{
+  color: white;
+}
+#taa{
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+}
+#taedge{
+  background-image: url("ta.jpg");
+  background-size: 98px;
+  position: relative;
+  width: 395px;
+  height: 50px;
+  margin: 5px;
+  
+}
+#button{
+  margin: 10px;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 5.4em 0.7em 5.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+#foroutput{
+  background-color: green;
+  position: relative;
+  left: 0px;
+  top: 1px;
+  width: 89%;
+  font-size: 7px;
+  margin: 1px 0px 1px 0px;
+  height: 25px;
+}
+.content {
+ position: relative;
+ background: rgba(0, 0, 0, 0.5);
+ color: white;
+ width: 80%;
+ padding: 20px;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+#output{
+position: relative;
+ background: rgba(0, 0, 0, 0.5);
+ color: #f1f1f1;
+ width: 90%;
+padding: 20px 0px;
+top: 5px;
+font-size: 12px
+}
